@@ -1,11 +1,13 @@
 import './App.css';
-import FRParentInput from './FRParentInput';
+import ClickCounter from './ClickCounter';
+import HoverCounter from './HoverCounter';
 
 function App() {
   return (
     <div className="App">
-      <FRParentInput />
-    </div>
+      <ClickCounter name={"Janice"}/>
+      <HoverCounter />
+    </div> 
   );
 }
 
